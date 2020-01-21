@@ -24,7 +24,7 @@ h1 {
 h2 {
     font-family: 'Lato';
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 60px;
 }
 h3 {
@@ -256,7 +256,7 @@ a {
 .link{
     color: #202020;
 	font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     font-stretch: normal;
 	text-decoration: none !important;
 	position: relative;
