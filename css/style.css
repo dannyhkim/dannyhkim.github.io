@@ -109,11 +109,10 @@ a {
     background-size: 0% 3px;
     transition: background-size cubic-bezier(0,.5,0,1) 0.3s;
 }
-.hero-link:hover,
-.hero-link:focus {
+.hero-link:hover {
     color: #009dff;
     text-decoration: none;
-    background-size: 100% 4px;
+    background-size: 100% 3px;
 }
 .card-link {
     color: #000;
@@ -439,6 +438,23 @@ a {
     animation-delay: 1.5s;
 }
 
+@-webkit-keyframes highlightText { from { background-position:0 0; } to { background-position:-100% 0; } }
+@-moz-keyframes highlightText { from { background-position:0 0; } to { background-position:-100% 0; } }
+@keyframes highlightText { from { background-position:0 0; } to { background-position:-100% 0; } }
+.name {
+    padding: 5px;
+    background: linear-gradient(90deg,hsla(0,0%,100%,0) 50%,#def5ff 0);
+    background-size: 200%;
+    display: inline;
+    -webkit-animation:highlightText ease-in-out 1s;
+    animation:highlightText ease-in-out 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
 @media (max-width: 450px) {
     /* mobile */
     .page-content {
