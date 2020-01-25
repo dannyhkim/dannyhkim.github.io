@@ -419,19 +419,24 @@ a {
   animation-duration:1s;
 }
 .fade-in.one {
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 .fade-in.two {
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
 }
 .fade-in.three {
-  -webkit-animation-delay: 1.4s;
-  -moz-animation-delay: 1.4s;
-  animation-delay: 1.4s;
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+}
+.fade-in.four {
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s;
 }
 
 @media (max-width: 450px) {
