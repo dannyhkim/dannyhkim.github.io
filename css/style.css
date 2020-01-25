@@ -174,7 +174,7 @@ a {
     padding-left: 16px;
 }
 .project-content {
-    margin-top: 10vh;
+    margin-top: 60px;
     margin-bottom: 64px;
 }
 .project-body {
@@ -255,7 +255,7 @@ a {
 .full-width {
     width: 100vw;
     height: auto;
-    padding-bottom: 25px;
+    padding-bottom: 60px;
 }
 .content {
     float: left;
@@ -397,6 +397,41 @@ a {
 }
 .row {
     margin-bottom: 10px;
+}
+
+/* fade in from opacity 0 to 1 */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1; 
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+.fade-in.one {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.fade-in.two {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.fade-in.three {
+  -webkit-animation-delay: 1.4s;
+  -moz-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 @media (max-width: 450px) {
