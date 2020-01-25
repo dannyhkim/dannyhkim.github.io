@@ -450,8 +450,8 @@ a {
     animation:highlightText ease-in-out 1s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
     -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
 }
