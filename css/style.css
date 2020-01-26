@@ -377,7 +377,23 @@ a {
 .right-column {
     padding-left: 40px;
 }
-
+.btn-align {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+.btn-style {
+    border: 1px solid black;
+    color: #000;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+}
+.btn-style:hover{
+    background: black;
+    color: white;
+}
 .footer {
     left: 0;
     bottom: 0;
