@@ -151,14 +151,12 @@ a {
     font-weight: 400;
     line-height: 30px;
 }
-.page-container {
-    position:relative;
-    min-height:100vh;
-}
+
 .page-content {
     padding-top: 25vh;
-    padding-bottom:188.38px;
-    margin-bottom:300px;
+}
+.experience {
+    margin-top: 30px;
 }
 .wrapper {
     position: relative;
@@ -272,11 +270,10 @@ a {
     padding-bottom: 60px;
 }
 .content {
-    float: left;
-    position: relative;
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .link{
     color: #202020;
 	font-size: 20px;
@@ -406,7 +403,6 @@ a {
 .footer {
     left: 0;
     bottom: 0;
-    position: absolute;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -414,7 +410,6 @@ a {
     border-top: 1px #000;
     color: black;
     text-align: center;
-    height:188.38px;
 }
 .footer-icons {
     margin: 20px;
